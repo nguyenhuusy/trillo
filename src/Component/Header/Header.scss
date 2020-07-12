@@ -1,0 +1,45 @@
+#table-flex {
+    
+    display:flex;
+    
+}
+.header__button {
+    position: relative;
+    background: #74b9ff;
+    border: 1px solid #74b9ff;
+    display:flex;
+    justify-content: center;
+    width:30px;
+    height:30px;
+    margin:10px;
+}
+.fa-plus {
+    font-size:20px;
+}
+.header__input-table {
+    
+    position: absolute;
+    z-index: 99999;
+    //display:flex;
+    display:none;
+    flex-direction:column;
+    align-items: center;
+    left: 48px;
+    top: 11px;
+}
+.input-body {
+    background: #74b9ff;
+    display:flex;
+    flex-direction:column;
+    border: 1px solid #74b9ff;
+    padding-bottom:5px;
+}
+.button {
+    margin: 5px;
+}
+.form-input {
+    margin: 0 5px;
+}
+.label-text {
+    margin: 5px 5px;
+}

@@ -1,0 +1,113 @@
+.table {
+    border:1px solid #81ecec;
+    background: #81ecec;
+    display:flex;
+    flex-direction: column;
+    height:500px;
+    width:20%;
+    
+    border-radius: 10px;
+    margin:10px;
+}
+.table-header {
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.table-name {
+    font-weight: bold;
+    font-size: 20px;
+}
+.table-description {
+    font-size:10px;
+}
+.table-item-input{
+    position:absolute;
+    display:none;
+    flex-direction: column;
+    z-index: 999;
+    background: #74b9ff;
+    align-items: center;
+    padding:5px;
+    border-radius: 10px;
+    left: 183px;
+    top: 43px;
+}
+.table-button {
+    background: white;
+    border-radius: 5px;
+    margin:5px;
+}
+.main-button-item {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    //flex-wrap: wrap;
+}
+.button-item {
+    font-size: 10px;
+    margin: 5px 2px;
+    background:white;
+    
+}
+
+.table-content{
+    display:block;
+    background: whitesmoke;
+    border:2px solid #81ecec;
+    height:499px;
+    border-radius: 10px;
+    
+}
+.draggable {
+    position: relative;
+    margin:5px;
+    display:flex;
+    flex-direction: column;
+    background: white;
+    border:1px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px 0 rgba(1, 2, 2, 0.05);
+}
+.deadline {
+    position:relative;
+}
+.main-calendar {
+    position: absolute;
+    
+    left: 109px;
+    top: 102px;
+    z-index:999999;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.main-calendar-edit {
+    left: 109px;
+    
+}
+.calendar-item {
+    display:flex;
+    margin:5px;
+    background: #1abc9c;
+    padding:5px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.table-edit-item-input{
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    z-index: 999999;
+    
+    background: #74b9ff;
+    align-items: center;
+    padding:5px;
+    border-radius: 10px;
+    left: 192px;
+    top: 0px;
+}

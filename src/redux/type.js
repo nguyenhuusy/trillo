@@ -1,0 +1,10 @@
+export const TEST_REDUX = 'TEST_REDUX';
+
+export const SAVE_TABLE='SAVE_TABLE';
+export const SAVE_TABLE_ITEM='SAVE_TABLE_ITEM';
+export const SAVE_DEADLINE='SAVE_DEADLINE';
+export const DELETE_TABLE_ITEM='DELETE_TABLE_ITEM';
+export const DROP_TABLE_ITEM='DROP_TABLE_ITEM';
+export const EDIT_TABLE_ITEM='EDIT_TABLE_ITEM';
+export const DELETE_TABLE='DELETE_TABLE';
+export const SAVE_ID='SAVE_ID';

@@ -1,0 +1,34 @@
+body {
+    overflow: auto;
+    margin:0;
+    padding:0
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  @media (max-width:991px) {
+      
+}
+@media (max-width:420px) {
+    .table {
+        min-width:40% !important;
+    }
+    .table-item-input {
+        left:130px;
+    }
+    .main-calendar {
+        left: -33px;
+    top: 145px;
+        
+}  
+    .calendar {
+        width:200px;
+    } 
+    .table-edit-item-input {
+        left:132px;
+    }
+    .main-calendar-edit {
+        left:-27px;
+    }
+}
